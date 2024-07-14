@@ -1,8 +1,6 @@
 public class CaixaEletronico {
-    /**
-     * @param args
-     */
-    public static void main(String[] args) {
+    
+    public static void main(String[] args, String string) {
         
         double saldo = 25.0;
         double valorSolicitado = 17.0;
@@ -10,7 +8,7 @@ public class CaixaEletronico {
         if (valorSolicitado < saldo)
         saldo = saldo - valorSolicitado;
 
-        System.out.println(" " + saldo);
+        System.out.println(string + saldo);
 
 
     }
